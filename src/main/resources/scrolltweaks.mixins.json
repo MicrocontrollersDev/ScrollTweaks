@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.example.mixin",
+	"package": "dev.microcontrollers.scrolltweaks.mixin",
 	"compatibilityLevel": "JAVA_17",
-	"mixins": [
-		"ExampleMixin"
+	"client": [
+		"MouseMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
